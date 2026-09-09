@@ -35,6 +35,7 @@ function collectState() {
  * Перерисовка состояния таблицы при любых изменениях
  * @param {HTMLButtonElement?} action
  */
+
 async function render(action) {
     let state = collectState(); // состояние полей из таблицы
     let query = {}; // копируем для последующего изменения
